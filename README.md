@@ -97,12 +97,30 @@ cd worker && mvn spring-boot:run
 ## Testing
 
 ```bash
-# Run tests for all services
-mvn test
+# Run unit tests for all services
+.\scripts\run-tests.ps1
 
 # Run E2E tests
-cd e2e-tests && mvn test
+.\scripts\run-e2e-tests.ps1
+
+# Test API endpoints
+.\scripts\test-api.ps1
+
+# Performance benchmarks
+.\scripts\performance-benchmark.ps1
 ```
+
+## Development Scripts
+
+The `scripts/` directory contains PowerShell automation scripts:
+- `test-api.ps1` - API workflow testing
+- `run-tests.ps1` - Unit test runner
+- `run-e2e-tests.ps1` - End-to-end testing
+- `performance-benchmark.ps1` - Load testing
+- `monitor-worker.ps1` - Service monitoring
+- `reset-system.ps1` - Environment reset
+
+See `scripts/README.md` for detailed usage.
 
 ## Contributing
 

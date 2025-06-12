@@ -1,5 +1,5 @@
-Write-Host "ZapFlow - Performance Benchmark" -ForegroundColor Green
-Write-Host "===============================" -ForegroundColor Green
+Write-Host "Running ZapFlow End-to-End Tests" -ForegroundColor Green
+Write-Host "=====================================" -ForegroundColor Green
 
 # Start services
 Write-Host "Starting services for performance testing..." -ForegroundColor Yellow

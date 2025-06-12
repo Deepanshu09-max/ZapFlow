@@ -1,4 +1,4 @@
-Write-Host "Testing ZapFlow Spring Boot API" -ForegroundColor Green # Fixed: removed extra space
+Write-Host "Testing ZapFlow Spring Boot API" -ForegroundColor Green
 Write-Host "====================================" -ForegroundColor Green
 
 # Test 1: Available Triggers
