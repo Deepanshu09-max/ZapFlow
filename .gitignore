@@ -1,0 +1,44 @@
+# Compiled class files
+*.class
+target/
+build/
+
+# Log files
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+
+# Docker volumes
+postgres_data/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Spring Boot
+HELP.md
+
+# Temporary files
+*.tmp
+*.temp
+
+# Sensitive configuration
+application-prod.yml
+application-local.yml
